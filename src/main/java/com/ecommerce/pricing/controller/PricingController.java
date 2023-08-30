@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/pricing")
+@RequestMapping("/v1/pricing")
 public class PricingController {
 
 	@GetMapping("/helloWorld")
