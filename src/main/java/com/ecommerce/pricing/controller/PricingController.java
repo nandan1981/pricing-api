@@ -20,5 +20,11 @@ public class PricingController {
 		HttpHeaders headers = new HttpHeaders();
 		return ResponseEntity.ok().headers(headers).body("12.44");
 	}
+	
+	@GetMapping("/echo")
+	public String echo(){
+		
+		return "Hello From Pricing Service!!".toUpperCase();
+	}
 
 }
